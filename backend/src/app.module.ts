@@ -10,6 +10,7 @@ import { EmailModule } from './email/email.module';
 import { RatesModule } from './rates/rates.module';
 import { DatabaseModule } from './database/database.module';
 import { HealthModule } from './health/health.module';
+import { SorobanModule } from './soroban/soroban.module';
 import { AuthModule } from './auth/auth.module';
 import { JwtAuthGuard } from './auth/guards/jwt-auth.guard';
 import { UploadModule } from './uploads/upload.module';
@@ -57,6 +58,7 @@ import { WebhooksModule } from './webhooks/webhooks.module';
     }),
 
     HealthModule,
+    SorobanModule,
 
     // 6. Email — async transactional delivery via ZeptoMail + BullMQ.
     EmailModule,
